@@ -1,0 +1,1291 @@
+2013-03-07 04:16:09.048+0000: WARNING! Deprecated configuration options used. See manual for details
+2013-03-07 04:16:09.061+0000: cannot configure writers and searchers individually since they go together
+2013-03-07 04:16:09.137+0000: Creating new db @ /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore
+2013-03-07 04:16:09.167+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.nodestore.db] brickCount=0 brickSize=1195371b mappedMem=119537664b (storeSize=0b)
+2013-03-07 04:16:09.171+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.nodestore.db hit=1 miss=0 switches=0 ooe=0
+2013-03-07 04:16:09.185+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-03-07 04:16:09.188+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-03-07 04:16:09.188+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2013-03-07 04:16:09.189+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-07 04:16:09.190+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-03-07 04:16:09.190+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-03-07 04:16:09.191+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.strings] brickCount=0 brickSize=368000b mappedMem=368050176b (storeSize=128b)
+2013-03-07 04:16:09.191+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=38b)
+2013-03-07 04:16:09.193+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index] brickCount=0 brickSize=10485b mappedMem=1048576b (storeSize=0b)
+2013-03-07 04:16:09.194+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.arrays] brickCount=0 brickSize=417280b mappedMem=417333248b (storeSize=128b)
+2013-03-07 04:16:09.197+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db] brickCount=0 brickSize=4330584b mappedMem=433061888b (storeSize=0b)
+2013-03-07 04:16:09.199+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshipstore.db] brickCount=0 brickSize=5305773b mappedMem=530579456b (storeSize=0b)
+2013-03-07 04:16:09.199+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.nodestore.db] brickCount=0 brickSize=119529b mappedMem=119537664b (storeSize=9b)
+2013-03-07 04:16:09.200+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-03-07 04:16:09.206+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2013-03-07 04:16:09.207+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-07 04:16:09.208+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2013-03-07 04:16:09.209+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2013-03-07 04:16:09.210+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2013-03-07 04:16:09.210+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-03-07 04:16:09.211+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-07 04:16:09.212+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-07 04:16:09.212+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2013-03-07 04:16:09.213+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore hit=0 miss=8 switches=0 ooe=0
+2013-03-07 04:16:09.216+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2013-03-07 04:16:09.217+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2013-03-07 04:16:09.217+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.strings] brickCount=0 brickSize=368000b mappedMem=368050176b (storeSize=128b)
+2013-03-07 04:16:09.218+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=38b)
+2013-03-07 04:16:09.219+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index] brickCount=0 brickSize=10485b mappedMem=1048576b (storeSize=0b)
+2013-03-07 04:16:09.220+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.arrays] brickCount=0 brickSize=417280b mappedMem=417333248b (storeSize=128b)
+2013-03-07 04:16:09.220+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db] brickCount=0 brickSize=4330584b mappedMem=433061888b (storeSize=0b)
+2013-03-07 04:16:09.221+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshipstore.db] brickCount=0 brickSize=5305773b mappedMem=530579456b (storeSize=0b)
+2013-03-07 04:16:09.222+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.nodestore.db] brickCount=0 brickSize=119529b mappedMem=119537664b (storeSize=9b)
+2013-03-07 04:16:09.222+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-03-07 04:16:09.238+0000: Opened logical log [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/nioneo_logical.log.1] version=0, lastTxId=1 (clean)
+2013-03-07 04:16:09.254+0000: TM new log: tm_tx_log.1
+2013-03-07 04:16:09.287+0000: Opened logical log [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/index/lucene.log.1] version=0, lastTxId=1 (clean)
+2013-03-07 04:16:09.291+0000: --- STARTUP diagnostics START ---
+2013-03-07 04:16:09.292+0000: Neo4j Kernel properties:
+    forced_kernel_id=
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=nioneo_logical.log
+    node_auto_indexing=false
+    intercept_committing_transactions=false
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=true
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.arrays.mapped_memory=398M
+    neostore.propertystore.db.strings.mapped_memory=351M
+    log_mapped_memory_stats_filename=mapped_memory_stats.log
+    log_mapped_memory_stats_interval=1000000
+    gcr_cache_min_log_interval=60s
+    relationship_grab_size=100
+    relationship_auto_indexing=false
+    node_cache_array_fraction=1.0
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    remote_logging_host=127.0.0.1
+    store_dir=testDB
+    online_backup_enabled=false
+    remote_logging_port=4560
+    gc_monitor_threshold=200ms
+    array_block_size=120
+    load_kernel_extensions=true
+    neostore.relationshipstore.db.mapped_memory=506M
+    keep_logical_logs=true
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    neostore.nodestore.db.mapped_memory=114M
+    neo4j.ext.udc.first_delay=600000
+    neo4j.ext.udc.reg=unreg
+    ephemeral=false
+    log_mapped_memory_stats=false
+    neo_store=neostore
+    mapped_memory_page_size=1M
+    query_cache_size=100
+    logging.threshold_for_rotation=104857600
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=413M
+    string_block_size=120
+    grab_file_lock=true
+    remote_logging_enabled=false
+    neo4j.ext.udc.enabled=true
+    all_stores_total_mapped_memory_size=500M
+    online_backup_port=6362
+2013-03-07 04:16:09.297+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    NETWORK
+2013-03-07 04:16:09.298+0000: System memory information:
+    Total Physical memory: 4.00 GB
+    Free Physical memory: 13.49 MB
+    Committed virtual memory: 2.73 GB
+    Total swap space: 4.00 GB
+    Free swap space: 1.15 GB
+2013-03-07 04:16:09.308+0000: JVM memory information:
+    Free  memory: 53.99 MB
+    Total memory: 81.06 MB
+    Max   memory: 123.94 MB
+    Garbage Collector: ParNew: [Par Eden Space, Par Survivor Space]
+    Garbage Collector: ConcurrentMarkSweep: [Par Eden Space, Par Survivor Space, CMS Old Gen, CMS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=588.94 kB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: Par Eden Space (Heap memory): committed=16.63 MB, used=6.06 MB, max=16.63 MB, threshold=?
+    Memory Pool: Par Survivor Space (Heap memory): committed=2.06 MB, used=1.01 MB, max=2.06 MB, threshold=?
+    Memory Pool: CMS Old Gen (Heap memory): committed=62.38 MB, used=20.00 MB, max=105.25 MB, threshold=0.00 B
+    Memory Pool: CMS Perm Gen (Non-heap memory): committed=20.75 MB, used=10.39 MB, max=82.00 MB, threshold=0.00 B
+2013-03-07 04:16:09.316+0000: Operating system information:
+    Operating System: Mac OS X; version: 10.8.2; arch: x86_64; cpus: 4
+    Max number of file descriptors: 10240
+    Number of open file descriptors: 72
+    Process id: 57923@Joshs-MacBook-Air.local
+    Byte order: LITTLE_ENDIAN
+    Local timezone: America/Denver
+2013-03-07 04:16:09.320+0000: JVM information:
+    VM Name: Java HotSpot(TM) 64-Bit Server VM
+    VM Vendor: Apple Inc.
+    VM Version: 20.14-b01-445
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: []
+2013-03-07 04:16:09.321+0000: Java classpath:
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar
+     [loader.1] file:/System/Library/Java/Extensions/dns_sd.jar
+     [bootstrap] /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaRuntimeSupport.framework/Versions/A/Resources/Java/JavaRuntimeSupport.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j/1.8.1/neo4j-1.8.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/j3dutils.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.3.1/concurrentlinkedhashmap-lru-1.3.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+     [loader.1] file:/System/Library/Java/Extensions/jai_core.jar
+     [loader.1] file:/System/Library/Java/Extensions/vecmath.jar
+     [loader.1] file:/System/Library/Java/Extensions/libmlib_jai.jnilib
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-jmx/1.8.1/neo4j-jmx-1.8.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/jai_codec.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-cypher/1.8.1/neo4j-cypher-1.8.1.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-graph-matching/1.8.1/neo4j-graph-matching-1.8.1.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar
+     [classpath + loader.0] file:/Users/jwalton/NetBeansProjects/DeckCollector/target/classes/
+     [loader.1] file:/System/Library/Java/Extensions/libJ3D.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/mlibwrapper_jai.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/mongodb/mongo-java-driver/1.3/mongo-java-driver-1.3.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/jsoup/jsoup/1.7.2/jsoup-1.7.2.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar
+     [loader.1] file:/System/Library/Java/Extensions/QTJava.zip
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-udc/1.8.1/neo4j-udc-1.8.1.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/scala-lang/scala-library/2.9.1-1/scala-library-2.9.1-1.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/jce.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-graph-algo/1.8.1/neo4j-graph-algo-1.8.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/libJ3DAudio.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/libAppleScriptEngine.jnilib
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar
+     [loader.1] file:/System/Library/Java/Extensions/j3daudio.jar
+     [loader.1] file:/System/Library/Java/Extensions/AppleScriptEngine.jar
+     [loader.1] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/apache/lucene/lucene-core/3.5.0/lucene-core-3.5.0.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-kernel/1.8.1/neo4j-kernel-1.8.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/libQTJNative.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/j3dcore.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-lucene-index/1.8.1/neo4j-lucene-index-1.8.1.jar
+2013-03-07 04:16:09.329+0000: Library path:
+    /Users/jwalton/NetBeansProjects/DeckCollector
+    /Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+2013-03-07 04:16:09.330+0000: System.properties:
+    sun.boot.library.path = /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries
+    awt.nativeDoubleBuffering = true
+    gopherProxySet = false
+    mrj.build = 11M4107
+    path.separator = :
+    file.encoding.pkg = sun.io
+    sun.java.launcher = SUN_STANDARD
+    user.country = US
+    sun.os.patch.level = unknown
+    user.dir = /Users/jwalton/NetBeansProjects/DeckCollector
+    sun.jnu.encoding = MacRoman
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    user.home = /Users/jwalton
+    user.timezone = America/Denver
+    file.encoding = MacRoman
+    user.name = jwalton
+    sun.java.command = com.mycompany.deckcollector.MtgNeo4jInserter
+    sun.arch.data.model = 64
+    user.language = en
+    awt.toolkit = apple.awt.CToolkit
+    file.separator = /
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    mrj.version = 1070.1.6.0_41-445
+    socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    sun.cpu.isalist = 
+2013-03-07 04:16:09.332+0000: Network information:
+    Interface en0:
+        address: 2601:1:a580:18:d9ff:ac23:6b0c:5da8
+        address: 2601:1:a580:18:7ed1:c3ff:feef:c543
+        address: fd9e:f642:9d0d:0:9510:127:3a41:4206
+        address: fd9e:f642:9d0d:0:7ed1:c3ff:feef:c543
+        address: fe80:0:0:0:7ed1:c3ff:feef:c543%4
+        address: 192.168.1.113
+    Interface lo0:
+        address: 0:0:0:0:0:0:0:1
+        address: fe80:0:0:0:0:0:0:1%1
+        address: 127.0.0.1
+2013-03-07 04:16:09.334+0000: --- STARTUP diagnostics END ---
+2013-03-07 04:16:09.338+0000: Recovery completed, all transactions have been resolved to a consistent state.
+2013-03-07 04:16:09.410+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2013-03-07 04:16:09.413+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2013-03-07 04:16:09.415+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2013-03-07 04:16:09.415+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1362629769138, id:6874366602008241042, store version: 13561656364791302]
+2013-03-07 04:16:09.415+0000: Kernel version: Neo4j - Graph Database Kernel 1.8.1
+2013-03-07 04:16:09.415+0000: Neo4j component versions:
+2013-03-07 04:16:09.416+0000:   Neo4j - Graph Database Kernel 1.8.1
+2013-03-07 04:16:09.416+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2013-03-07 04:16:09.418+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2013-03-07 04:16:09.419+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2013-03-07 04:16:09.419+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2013-03-07 04:16:09.419+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2013-03-07 04:16:09.419+0000: Id usage:
+    Id usage:
+      NodeStore: used=1 high=0
+      RelationshipStore: used=0 high=-1
+      RelationshipTypeStore: used=0 high=-1
+      PropertyStore: used=0 high=-1
+      PropertyIndexStore: used=0 high=-1
+      StringPropertyStore: used=1 high=0
+      ArrayPropertyStore: used=1 high=0
+2013-03-07 04:16:09.420+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2013-03-07 04:16:09.420+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-03-07 04:16:09.420+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-03-07 04:16:09.421+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-03-07 04:16:09.421+0000: Disk space on partition (Total / Free / Free %): 120473067520 / 50346258432 / 58
+Storage files: (filename : modification date - size)
+      active_tx_log: 2013-03-06T21:16:09-0700 - 11.00 B
+      index:
+        lucene-store.db: 2013-03-06T21:16:09-0700 - 40.00 B
+        lucene.log.1: 2013-03-06T21:16:09-0700 - 16.00 B
+        lucene.log.active: 2013-03-06T21:16:09-0700 - 4.00 B
+      - Total: 2013-03-06T21:16:09-0700 - 60.00 B
+      lock: 2013-03-06T21:16:09-0700 - 0.00 B
+      messages.log: 2013-03-06T21:16:09-0700 - 18.33 kB
+      neostore: 2013-03-06T21:16:09-0700 - 54.00 B
+      neostore.id: 2013-03-06T21:16:09-0700 - 9.00 B
+      neostore.nodestore.db: 2013-03-06T21:16:09-0700 - 9.00 B
+      neostore.nodestore.db.id: 2013-03-06T21:16:09-0700 - 9.00 B
+      neostore.propertystore.db: 2013-03-06T21:16:09-0700 - 0.00 B
+      neostore.propertystore.db.arrays: 2013-03-06T21:16:09-0700 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2013-03-06T21:16:09-0700 - 9.00 B
+      neostore.propertystore.db.id: 2013-03-06T21:16:09-0700 - 9.00 B
+      neostore.propertystore.db.index: 2013-03-06T21:16:09-0700 - 0.00 B
+      neostore.propertystore.db.index.id: 2013-03-06T21:16:09-0700 - 9.00 B
+      neostore.propertystore.db.index.keys: 2013-03-06T21:16:09-0700 - 38.00 B
+      neostore.propertystore.db.index.keys.id: 2013-03-06T21:16:09-0700 - 9.00 B
+      neostore.propertystore.db.strings: 2013-03-06T21:16:09-0700 - 128.00 B
+      neostore.propertystore.db.strings.id: 2013-03-06T21:16:09-0700 - 9.00 B
+      neostore.relationshipstore.db: 2013-03-06T21:16:09-0700 - 0.00 B
+      neostore.relationshipstore.db.id: 2013-03-06T21:16:09-0700 - 9.00 B
+      neostore.relationshiptypestore.db: 2013-03-06T21:16:09-0700 - 0.00 B
+      neostore.relationshiptypestore.db.id: 2013-03-06T21:16:09-0700 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2013-03-06T21:16:09-0700 - 38.00 B
+      neostore.relationshiptypestore.db.names.id: 2013-03-06T21:16:09-0700 - 9.00 B
+      nioneo_logical.log.1: 2013-03-06T21:16:09-0700 - 16.00 B
+      nioneo_logical.log.active: 2013-03-06T21:16:09-0700 - 4.00 B
+      tm_tx_log.1: 2013-03-06T21:16:09-0700 - 0.00 B
+2013-03-07 04:16:09.430+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-03-07 04:16:09.431+0000: Started - database is now available
+2013-03-07 04:16:09.431+0000: GC Monitor started. 
+2013-03-07 04:16:11.102+0000: Stopping - database is now unavailable
+2013-03-07 04:16:11.104+0000: TM shutting down
+2013-03-07 04:16:11.124+0000: Closed log /Users/jwalton/NetBeansProjects/DeckCollector/testDB/index/lucene.log
+2013-03-07 04:16:11.126+0000: Closed log /Users/jwalton/NetBeansProjects/DeckCollector/testDB/nioneo_logical.log
+2013-03-07 04:16:11.127+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db.names hit=0 miss=1 switches=0 ooe=0
+2013-03-07 04:16:11.127+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db hit=0 miss=1 switches=0 ooe=0
+2013-03-07 04:16:11.128+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2013-03-07 04:16:11.128+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index.keys hit=2 miss=0 switches=0 ooe=0
+2013-03-07 04:16:11.129+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index hit=2 miss=0 switches=0 ooe=0
+2013-03-07 04:16:11.132+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-03-07 04:16:11.132+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db hit=351 miss=0 switches=0 ooe=0
+2013-03-07 04:16:11.133+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshipstore.db hit=1573 miss=0 switches=0 ooe=0
+2013-03-07 04:16:11.134+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.nodestore.db hit=1326 miss=0 switches=0 ooe=0
+2013-03-07 04:16:11.134+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore hit=0 miss=368 switches=0 ooe=0
+2013-03-07 04:16:11.135+0000: NeoStore closed
+2013-03-07 04:16:11.135+0000: --- SHUTDOWN diagnostics START ---
+2013-03-07 04:16:11.135+0000: --- SHUTDOWN diagnostics END ---
+2013-03-07 04:21:11.996+0000: WARNING! Deprecated configuration options used. See manual for details
+2013-03-07 04:21:12.011+0000: cannot configure writers and searchers individually since they go together
+2013-03-07 04:21:12.144+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=76b)
+2013-03-07 04:21:12.148+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=5b)
+2013-03-07 04:21:12.149+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.strings] brickCount=0 brickSize=368000b mappedMem=368050176b (storeSize=128b)
+2013-03-07 04:21:12.150+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=114b)
+2013-03-07 04:21:12.153+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index] brickCount=0 brickSize=1044b mappedMem=1048576b (storeSize=18b)
+2013-03-07 04:21:12.155+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.arrays] brickCount=0 brickSize=417280b mappedMem=417333248b (storeSize=128b)
+2013-03-07 04:21:12.159+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db] brickCount=0 brickSize=433042b mappedMem=433061888b (storeSize=14391b)
+2013-03-07 04:21:12.162+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshipstore.db] brickCount=0 brickSize=530574b mappedMem=530579456b (storeSize=10725b)
+2013-03-07 04:21:12.165+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.nodestore.db] brickCount=0 brickSize=119529b mappedMem=119537664b (storeSize=243b)
+2013-03-07 04:21:12.166+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-03-07 04:21:12.194+0000: Opened logical log [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/nioneo_logical.log.1] version=1, lastTxId=353 (clean)
+2013-03-07 04:21:12.210+0000: TM opening log: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/tm_tx_log.2
+2013-03-07 04:21:12.242+0000: Opened logical log [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/index/lucene.log.1] version=1, lastTxId=28 (clean)
+2013-03-07 04:21:12.245+0000: --- STARTUP diagnostics START ---
+2013-03-07 04:21:12.249+0000: Neo4j Kernel properties:
+    forced_kernel_id=
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=nioneo_logical.log
+    node_auto_indexing=false
+    intercept_committing_transactions=false
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=true
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.arrays.mapped_memory=398M
+    neostore.propertystore.db.strings.mapped_memory=351M
+    log_mapped_memory_stats_filename=mapped_memory_stats.log
+    log_mapped_memory_stats_interval=1000000
+    gcr_cache_min_log_interval=60s
+    relationship_grab_size=100
+    relationship_auto_indexing=false
+    node_cache_array_fraction=1.0
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    remote_logging_host=127.0.0.1
+    store_dir=testDB
+    online_backup_enabled=false
+    remote_logging_port=4560
+    gc_monitor_threshold=200ms
+    array_block_size=120
+    load_kernel_extensions=true
+    neostore.relationshipstore.db.mapped_memory=506M
+    keep_logical_logs=true
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    neostore.nodestore.db.mapped_memory=114M
+    neo4j.ext.udc.first_delay=600000
+    neo4j.ext.udc.reg=unreg
+    ephemeral=false
+    log_mapped_memory_stats=false
+    neo_store=neostore
+    mapped_memory_page_size=1M
+    query_cache_size=100
+    logging.threshold_for_rotation=104857600
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=413M
+    string_block_size=120
+    grab_file_lock=true
+    remote_logging_enabled=false
+    neo4j.ext.udc.enabled=true
+    all_stores_total_mapped_memory_size=500M
+    online_backup_port=6362
+2013-03-07 04:21:12.256+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    NETWORK
+2013-03-07 04:21:12.257+0000: System memory information:
+    Total Physical memory: 4.00 GB
+    Free Physical memory: 10.00 MB
+    Committed virtual memory: 2.73 GB
+    Total swap space: 4.00 GB
+    Free swap space: 1.08 GB
+2013-03-07 04:21:12.269+0000: JVM memory information:
+    Free  memory: 55.65 MB
+    Total memory: 81.06 MB
+    Max   memory: 123.94 MB
+    Garbage Collector: ParNew: [Par Eden Space, Par Survivor Space]
+    Garbage Collector: ConcurrentMarkSweep: [Par Eden Space, Par Survivor Space, CMS Old Gen, CMS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=585.19 kB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: Par Eden Space (Heap memory): committed=16.63 MB, used=4.50 MB, max=16.63 MB, threshold=?
+    Memory Pool: Par Survivor Space (Heap memory): committed=2.06 MB, used=934.63 kB, max=2.06 MB, threshold=?
+    Memory Pool: CMS Old Gen (Heap memory): committed=62.38 MB, used=20.00 MB, max=105.25 MB, threshold=0.00 B
+    Memory Pool: CMS Perm Gen (Non-heap memory): committed=20.75 MB, used=10.38 MB, max=82.00 MB, threshold=0.00 B
+2013-03-07 04:21:12.277+0000: Operating system information:
+    Operating System: Mac OS X; version: 10.8.2; arch: x86_64; cpus: 4
+    Max number of file descriptors: 10240
+    Number of open file descriptors: 72
+    Process id: 58214@Joshs-MacBook-Air.local
+    Byte order: LITTLE_ENDIAN
+    Local timezone: America/Denver
+2013-03-07 04:21:12.280+0000: JVM information:
+    VM Name: Java HotSpot(TM) 64-Bit Server VM
+    VM Vendor: Apple Inc.
+    VM Version: 20.14-b01-445
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: []
+2013-03-07 04:21:12.281+0000: Java classpath:
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar
+     [loader.1] file:/System/Library/Java/Extensions/dns_sd.jar
+     [bootstrap] /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaRuntimeSupport.framework/Versions/A/Resources/Java/JavaRuntimeSupport.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j/1.8.1/neo4j-1.8.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/j3dutils.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.3.1/concurrentlinkedhashmap-lru-1.3.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+     [loader.1] file:/System/Library/Java/Extensions/jai_core.jar
+     [loader.1] file:/System/Library/Java/Extensions/vecmath.jar
+     [loader.1] file:/System/Library/Java/Extensions/libmlib_jai.jnilib
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-jmx/1.8.1/neo4j-jmx-1.8.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/jai_codec.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-cypher/1.8.1/neo4j-cypher-1.8.1.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-graph-matching/1.8.1/neo4j-graph-matching-1.8.1.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar
+     [classpath + loader.0] file:/Users/jwalton/NetBeansProjects/DeckCollector/target/classes/
+     [loader.1] file:/System/Library/Java/Extensions/libJ3D.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/mlibwrapper_jai.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/mongodb/mongo-java-driver/1.3/mongo-java-driver-1.3.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/jsoup/jsoup/1.7.2/jsoup-1.7.2.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar
+     [loader.1] file:/System/Library/Java/Extensions/QTJava.zip
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-udc/1.8.1/neo4j-udc-1.8.1.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/scala-lang/scala-library/2.9.1-1/scala-library-2.9.1-1.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/jce.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-graph-algo/1.8.1/neo4j-graph-algo-1.8.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/libJ3DAudio.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/libAppleScriptEngine.jnilib
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar
+     [loader.1] file:/System/Library/Java/Extensions/j3daudio.jar
+     [loader.1] file:/System/Library/Java/Extensions/AppleScriptEngine.jar
+     [loader.1] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/apache/lucene/lucene-core/3.5.0/lucene-core-3.5.0.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-kernel/1.8.1/neo4j-kernel-1.8.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/libQTJNative.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/j3dcore.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-lucene-index/1.8.1/neo4j-lucene-index-1.8.1.jar
+2013-03-07 04:21:12.285+0000: Library path:
+    /Users/jwalton/NetBeansProjects/DeckCollector
+    /Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+2013-03-07 04:21:12.286+0000: System.properties:
+    sun.boot.library.path = /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries
+    awt.nativeDoubleBuffering = true
+    gopherProxySet = false
+    mrj.build = 11M4107
+    path.separator = :
+    file.encoding.pkg = sun.io
+    sun.java.launcher = SUN_STANDARD
+    user.country = US
+    sun.os.patch.level = unknown
+    user.dir = /Users/jwalton/NetBeansProjects/DeckCollector
+    sun.jnu.encoding = MacRoman
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    user.home = /Users/jwalton
+    user.timezone = America/Denver
+    file.encoding = MacRoman
+    user.name = jwalton
+    sun.java.command = com.mycompany.deckcollector.MtgNeo4jInserter
+    sun.arch.data.model = 64
+    user.language = en
+    awt.toolkit = apple.awt.CToolkit
+    file.separator = /
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    mrj.version = 1070.1.6.0_41-445
+    socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    sun.cpu.isalist = 
+2013-03-07 04:21:12.288+0000: Network information:
+    Interface en0:
+        address: 2601:1:a580:18:d9ff:ac23:6b0c:5da8
+        address: 2601:1:a580:18:7ed1:c3ff:feef:c543
+        address: fd9e:f642:9d0d:0:9510:127:3a41:4206
+        address: fd9e:f642:9d0d:0:7ed1:c3ff:feef:c543
+        address: fe80:0:0:0:7ed1:c3ff:feef:c543%4
+        address: 192.168.1.113
+    Interface lo0:
+        address: 0:0:0:0:0:0:0:1
+        address: fe80:0:0:0:0:0:0:1%1
+        address: 127.0.0.1
+2013-03-07 04:21:12.290+0000: --- STARTUP diagnostics END ---
+2013-03-07 04:21:12.295+0000: Recovery completed, all transactions have been resolved to a consistent state.
+2013-03-07 04:21:12.399+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2013-03-07 04:21:12.403+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2013-03-07 04:21:12.407+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2013-03-07 04:21:12.407+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1362629769138, id:6874366602008241042, store version: 13561656364791302]
+2013-03-07 04:21:12.407+0000: Kernel version: Neo4j - Graph Database Kernel 1.8.1
+2013-03-07 04:21:12.407+0000: Neo4j component versions:
+2013-03-07 04:21:12.408+0000:   Neo4j - Graph Database Kernel 1.8.1
+2013-03-07 04:21:12.408+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2013-03-07 04:21:12.410+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2013-03-07 04:21:12.410+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2013-03-07 04:21:12.411+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2013-03-07 04:21:12.411+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2013-03-07 04:21:12.411+0000: Id usage:
+    Id usage:
+      NodeStore: used=27 high=26
+      RelationshipStore: used=325 high=324
+      RelationshipTypeStore: used=1 high=0
+      PropertyStore: used=351 high=350
+      PropertyIndexStore: used=2 high=1
+      StringPropertyStore: used=1 high=0
+      ArrayPropertyStore: used=1 high=0
+2013-03-07 04:21:12.412+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2013-03-07 04:21:12.412+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-03-07 04:21:12.412+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-03-07 04:21:12.412+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-03-07 04:21:12.412+0000: Disk space on partition (Total / Free / Free %): 120473067520 / 50339860480 / 58
+Storage files: (filename : modification date - size)
+      active_tx_log: 2013-03-06T21:16:11-0700 - 11.00 B
+      index:
+        lucene:
+          node:
+            cards:
+              _k.fdt: 2013-03-06T21:16:10-0700 - 458.00 B
+              _k.fdx: 2013-03-06T21:16:10-0700 - 156.00 B
+              _k.fnm: 2013-03-06T21:16:10-0700 - 18.00 B
+              _k.frq: 2013-03-06T21:16:10-0700 - 38.00 B
+              _k.nrm: 2013-03-06T21:16:10-0700 - 42.00 B
+              _k.prx: 2013-03-06T21:16:10-0700 - 38.00 B
+              _k.tii: 2013-03-06T21:16:10-0700 - 35.00 B
+              _k.tis: 2013-03-06T21:16:10-0700 - 544.00 B
+              _l.cfs: 2013-03-06T21:16:10-0700 - 266.00 B
+              _m.cfs: 2013-03-06T21:16:10-0700 - 264.00 B
+              _n.cfs: 2013-03-06T21:16:10-0700 - 268.00 B
+              _o.cfs: 2013-03-06T21:16:10-0700 - 248.00 B
+              _p.cfs: 2013-03-06T21:16:10-0700 - 246.00 B
+              _q.cfs: 2013-03-06T21:16:10-0700 - 280.00 B
+              _r.cfs: 2013-03-06T21:16:11-0700 - 260.00 B
+              segments.gen: 2013-03-06T21:16:11-0700 - 20.00 B
+              segments_1: 2013-03-06T21:16:11-0700 - 1.64 kB
+            - Total: 2013-03-06T21:16:11-0700 - 4.75 kB
+          - Total: 2013-03-06T21:16:10-0700 - 4.75 kB
+        - Total: 2013-03-06T21:16:10-0700 - 4.75 kB
+        lucene-store.db: 2013-03-06T21:16:11-0700 - 40.00 B
+        lucene.log.1: 2013-03-06T21:21:12-0700 - 16.00 B
+        lucene.log.active: 2013-03-06T21:21:12-0700 - 4.00 B
+        lucene.log.v0: 2013-03-06T21:16:11-0700 - 4.56 kB
+      - Total: 2013-03-06T21:21:12-0700 - 9.36 kB
+      index.db: 2013-03-06T21:16:10-0700 - 103.00 B
+      lock: 2013-03-06T21:21:12-0700 - 0.00 B
+      messages.log: 2013-03-06T21:21:12-0700 - 37.17 kB
+      neostore: 2013-03-06T21:21:12-0700 - 54.00 B
+      neostore.id: 2013-03-06T21:21:12-0700 - 9.00 B
+      neostore.nodestore.db: 2013-03-06T21:21:12-0700 - 243.00 B
+      neostore.nodestore.db.id: 2013-03-06T21:21:12-0700 - 9.00 B
+      neostore.propertystore.db: 2013-03-06T21:21:12-0700 - 14.05 kB
+      neostore.propertystore.db.arrays: 2013-03-06T21:21:12-0700 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2013-03-06T21:21:12-0700 - 9.00 B
+      neostore.propertystore.db.id: 2013-03-06T21:21:12-0700 - 9.00 B
+      neostore.propertystore.db.index: 2013-03-06T21:21:12-0700 - 1.02 kB
+      neostore.propertystore.db.index.id: 2013-03-06T21:21:12-0700 - 9.00 B
+      neostore.propertystore.db.index.keys: 2013-03-06T21:21:12-0700 - 1.00 kB
+      neostore.propertystore.db.index.keys.id: 2013-03-06T21:21:12-0700 - 9.00 B
+      neostore.propertystore.db.strings: 2013-03-06T21:21:12-0700 - 128.00 B
+      neostore.propertystore.db.strings.id: 2013-03-06T21:21:12-0700 - 9.00 B
+      neostore.relationshipstore.db: 2013-03-06T21:21:12-0700 - 10.47 kB
+      neostore.relationshipstore.db.id: 2013-03-06T21:21:12-0700 - 9.00 B
+      neostore.relationshiptypestore.db: 2013-03-06T21:21:12-0700 - 5.00 B
+      neostore.relationshiptypestore.db.id: 2013-03-06T21:21:12-0700 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2013-03-06T21:21:12-0700 - 76.00 B
+      neostore.relationshiptypestore.db.names.id: 2013-03-06T21:21:12-0700 - 9.00 B
+      nioneo_logical.log.1: 2013-03-06T21:21:12-0700 - 16.00 B
+      nioneo_logical.log.active: 2013-03-06T21:21:12-0700 - 4.00 B
+      nioneo_logical.log.v0: 2013-03-06T21:16:11-0700 - 139.11 kB
+      tm_tx_log.1: 2013-03-06T21:16:11-0700 - 28.73 kB
+      tm_tx_log.2: 2013-03-06T21:21:12-0700 - 0.00 B
+2013-03-07 04:21:12.430+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-03-07 04:21:12.431+0000: Started - database is now available
+2013-03-07 04:21:12.431+0000: GC Monitor started. 
+2013-03-07 04:21:13.831+0000: Stopping - database is now unavailable
+2013-03-07 04:21:13.834+0000: TM shutting down
+2013-03-07 04:21:13.841+0000: Closed log /Users/jwalton/NetBeansProjects/DeckCollector/testDB/index/lucene.log
+2013-03-07 04:21:13.845+0000: Closed log /Users/jwalton/NetBeansProjects/DeckCollector/testDB/nioneo_logical.log
+2013-03-07 04:21:13.845+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db.names hit=0 miss=2 switches=0 ooe=0
+2013-03-07 04:21:13.846+0000: GC Monitor stopped. 
+2013-03-07 04:21:13.847+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db hit=0 miss=1 switches=0 ooe=0
+2013-03-07 04:21:13.847+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2013-03-07 04:21:13.848+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index.keys hit=4 miss=0 switches=0 ooe=0
+2013-03-07 04:21:13.849+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index hit=2 miss=0 switches=0 ooe=0
+2013-03-07 04:21:13.850+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-03-07 04:21:13.850+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db hit=1000 miss=0 switches=0 ooe=0
+2013-03-07 04:21:13.851+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshipstore.db hit=1275 miss=0 switches=0 ooe=0
+2013-03-07 04:21:13.852+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.nodestore.db hit=76 miss=0 switches=0 ooe=0
+2013-03-07 04:21:13.853+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore hit=0 miss=341 switches=0 ooe=0
+2013-03-07 04:21:13.853+0000: NeoStore closed
+2013-03-07 04:21:13.854+0000: --- SHUTDOWN diagnostics START ---
+2013-03-07 04:21:13.854+0000: --- SHUTDOWN diagnostics END ---
+2013-03-07 04:22:12.898+0000: WARNING! Deprecated configuration options used. See manual for details
+2013-03-07 04:22:12.912+0000: cannot configure writers and searchers individually since they go together
+2013-03-07 04:22:13.039+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=76b)
+2013-03-07 04:22:13.045+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=5b)
+2013-03-07 04:22:13.046+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.strings] brickCount=0 brickSize=368000b mappedMem=368050176b (storeSize=128b)
+2013-03-07 04:22:13.046+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=114b)
+2013-03-07 04:22:13.048+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index] brickCount=0 brickSize=1044b mappedMem=1048576b (storeSize=18b)
+2013-03-07 04:22:13.052+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.arrays] brickCount=0 brickSize=417280b mappedMem=417333248b (storeSize=128b)
+2013-03-07 04:22:13.056+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db] brickCount=0 brickSize=433042b mappedMem=433061888b (storeSize=14391b)
+2013-03-07 04:22:13.060+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshipstore.db] brickCount=0 brickSize=530574b mappedMem=530579456b (storeSize=10725b)
+2013-03-07 04:22:13.063+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.nodestore.db] brickCount=0 brickSize=119529b mappedMem=119537664b (storeSize=243b)
+2013-03-07 04:22:13.065+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-03-07 04:22:13.092+0000: Opened logical log [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/nioneo_logical.log.1] version=2, lastTxId=678 (clean)
+2013-03-07 04:22:13.107+0000: TM opening log: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/tm_tx_log.2
+2013-03-07 04:22:13.144+0000: Opened logical log [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/index/lucene.log.1] version=2, lastTxId=28 (clean)
+2013-03-07 04:22:13.147+0000: --- STARTUP diagnostics START ---
+2013-03-07 04:22:13.149+0000: Neo4j Kernel properties:
+    forced_kernel_id=
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=nioneo_logical.log
+    node_auto_indexing=false
+    intercept_committing_transactions=false
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=true
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.arrays.mapped_memory=398M
+    neostore.propertystore.db.strings.mapped_memory=351M
+    log_mapped_memory_stats_filename=mapped_memory_stats.log
+    log_mapped_memory_stats_interval=1000000
+    gcr_cache_min_log_interval=60s
+    relationship_grab_size=100
+    relationship_auto_indexing=false
+    node_cache_array_fraction=1.0
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    remote_logging_host=127.0.0.1
+    store_dir=testDB
+    online_backup_enabled=false
+    remote_logging_port=4560
+    gc_monitor_threshold=200ms
+    array_block_size=120
+    load_kernel_extensions=true
+    neostore.relationshipstore.db.mapped_memory=506M
+    keep_logical_logs=true
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    neostore.nodestore.db.mapped_memory=114M
+    neo4j.ext.udc.first_delay=600000
+    neo4j.ext.udc.reg=unreg
+    ephemeral=false
+    log_mapped_memory_stats=false
+    neo_store=neostore
+    mapped_memory_page_size=1M
+    query_cache_size=100
+    logging.threshold_for_rotation=104857600
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=413M
+    string_block_size=120
+    grab_file_lock=true
+    remote_logging_enabled=false
+    neo4j.ext.udc.enabled=true
+    all_stores_total_mapped_memory_size=500M
+    online_backup_port=6362
+2013-03-07 04:22:13.153+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    NETWORK
+2013-03-07 04:22:13.154+0000: System memory information:
+    Total Physical memory: 4.00 GB
+    Free Physical memory: 9.82 MB
+    Committed virtual memory: 2.73 GB
+    Total swap space: 4.00 GB
+    Free swap space: 1.07 GB
+2013-03-07 04:22:13.168+0000: JVM memory information:
+    Free  memory: 55.65 MB
+    Total memory: 81.06 MB
+    Max   memory: 123.94 MB
+    Garbage Collector: ParNew: [Par Eden Space, Par Survivor Space]
+    Garbage Collector: ConcurrentMarkSweep: [Par Eden Space, Par Survivor Space, CMS Old Gen, CMS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=584.69 kB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: Par Eden Space (Heap memory): committed=16.63 MB, used=4.50 MB, max=16.63 MB, threshold=?
+    Memory Pool: Par Survivor Space (Heap memory): committed=2.06 MB, used=931.25 kB, max=2.06 MB, threshold=?
+    Memory Pool: CMS Old Gen (Heap memory): committed=62.38 MB, used=20.00 MB, max=105.25 MB, threshold=0.00 B
+    Memory Pool: CMS Perm Gen (Non-heap memory): committed=20.75 MB, used=10.38 MB, max=82.00 MB, threshold=0.00 B
+2013-03-07 04:22:13.174+0000: Operating system information:
+    Operating System: Mac OS X; version: 10.8.2; arch: x86_64; cpus: 4
+    Max number of file descriptors: 10240
+    Number of open file descriptors: 72
+    Process id: 58227@Joshs-MacBook-Air.local
+    Byte order: LITTLE_ENDIAN
+    Local timezone: America/Denver
+2013-03-07 04:22:13.177+0000: JVM information:
+    VM Name: Java HotSpot(TM) 64-Bit Server VM
+    VM Vendor: Apple Inc.
+    VM Version: 20.14-b01-445
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: []
+2013-03-07 04:22:13.178+0000: Java classpath:
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar
+     [loader.1] file:/System/Library/Java/Extensions/dns_sd.jar
+     [bootstrap] /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaRuntimeSupport.framework/Versions/A/Resources/Java/JavaRuntimeSupport.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j/1.8.1/neo4j-1.8.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/j3dutils.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.3.1/concurrentlinkedhashmap-lru-1.3.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+     [loader.1] file:/System/Library/Java/Extensions/jai_core.jar
+     [loader.1] file:/System/Library/Java/Extensions/vecmath.jar
+     [loader.1] file:/System/Library/Java/Extensions/libmlib_jai.jnilib
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-jmx/1.8.1/neo4j-jmx-1.8.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/jai_codec.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-cypher/1.8.1/neo4j-cypher-1.8.1.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-graph-matching/1.8.1/neo4j-graph-matching-1.8.1.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar
+     [classpath + loader.0] file:/Users/jwalton/NetBeansProjects/DeckCollector/target/classes/
+     [loader.1] file:/System/Library/Java/Extensions/libJ3D.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/mlibwrapper_jai.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/mongodb/mongo-java-driver/1.3/mongo-java-driver-1.3.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/jsoup/jsoup/1.7.2/jsoup-1.7.2.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar
+     [loader.1] file:/System/Library/Java/Extensions/QTJava.zip
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-udc/1.8.1/neo4j-udc-1.8.1.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/scala-lang/scala-library/2.9.1-1/scala-library-2.9.1-1.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/jce.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-graph-algo/1.8.1/neo4j-graph-algo-1.8.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/libJ3DAudio.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/libAppleScriptEngine.jnilib
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar
+     [loader.1] file:/System/Library/Java/Extensions/j3daudio.jar
+     [loader.1] file:/System/Library/Java/Extensions/AppleScriptEngine.jar
+     [loader.1] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/apache/lucene/lucene-core/3.5.0/lucene-core-3.5.0.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-kernel/1.8.1/neo4j-kernel-1.8.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/libQTJNative.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/j3dcore.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-lucene-index/1.8.1/neo4j-lucene-index-1.8.1.jar
+2013-03-07 04:22:13.183+0000: Library path:
+    /Users/jwalton/NetBeansProjects/DeckCollector
+    /Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+2013-03-07 04:22:13.184+0000: System.properties:
+    sun.boot.library.path = /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries
+    awt.nativeDoubleBuffering = true
+    gopherProxySet = false
+    mrj.build = 11M4107
+    path.separator = :
+    file.encoding.pkg = sun.io
+    sun.java.launcher = SUN_STANDARD
+    user.country = US
+    sun.os.patch.level = unknown
+    user.dir = /Users/jwalton/NetBeansProjects/DeckCollector
+    sun.jnu.encoding = MacRoman
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    user.home = /Users/jwalton
+    user.timezone = America/Denver
+    file.encoding = MacRoman
+    user.name = jwalton
+    sun.java.command = com.mycompany.deckcollector.MtgNeo4jInserter
+    sun.arch.data.model = 64
+    user.language = en
+    awt.toolkit = apple.awt.CToolkit
+    file.separator = /
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    mrj.version = 1070.1.6.0_41-445
+    socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    sun.cpu.isalist = 
+2013-03-07 04:22:13.186+0000: Network information:
+    Interface en0:
+        address: 2601:1:a580:18:d9ff:ac23:6b0c:5da8
+        address: 2601:1:a580:18:7ed1:c3ff:feef:c543
+        address: fd9e:f642:9d0d:0:9510:127:3a41:4206
+        address: fd9e:f642:9d0d:0:7ed1:c3ff:feef:c543
+        address: fe80:0:0:0:7ed1:c3ff:feef:c543%4
+        address: 192.168.1.113
+    Interface lo0:
+        address: 0:0:0:0:0:0:0:1
+        address: fe80:0:0:0:0:0:0:1%1
+        address: 127.0.0.1
+2013-03-07 04:22:13.188+0000: --- STARTUP diagnostics END ---
+2013-03-07 04:22:13.211+0000: Recovery completed, all transactions have been resolved to a consistent state.
+2013-03-07 04:22:13.303+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2013-03-07 04:22:13.306+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2013-03-07 04:22:13.309+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2013-03-07 04:22:13.309+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1362629769138, id:6874366602008241042, store version: 13561656364791302]
+2013-03-07 04:22:13.309+0000: Kernel version: Neo4j - Graph Database Kernel 1.8.1
+2013-03-07 04:22:13.309+0000: Neo4j component versions:
+2013-03-07 04:22:13.310+0000:   Neo4j - Graph Database Kernel 1.8.1
+2013-03-07 04:22:13.310+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2013-03-07 04:22:13.312+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2013-03-07 04:22:13.313+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2013-03-07 04:22:13.314+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2013-03-07 04:22:13.314+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2013-03-07 04:22:13.314+0000: Id usage:
+    Id usage:
+      NodeStore: used=27 high=26
+      RelationshipStore: used=325 high=324
+      RelationshipTypeStore: used=1 high=0
+      PropertyStore: used=351 high=350
+      PropertyIndexStore: used=2 high=1
+      StringPropertyStore: used=1 high=0
+      ArrayPropertyStore: used=1 high=0
+2013-03-07 04:22:13.315+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2013-03-07 04:22:13.315+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-03-07 04:22:13.315+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-03-07 04:22:13.316+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-03-07 04:22:13.316+0000: Disk space on partition (Total / Free / Free %): 120473067520 / 50339766272 / 58
+Storage files: (filename : modification date - size)
+      active_tx_log: 2013-03-06T21:16:11-0700 - 11.00 B
+      index:
+        lucene:
+          node:
+            cards:
+              _k.fdt: 2013-03-06T21:16:10-0700 - 458.00 B
+              _k.fdx: 2013-03-06T21:16:10-0700 - 156.00 B
+              _k.fnm: 2013-03-06T21:16:10-0700 - 18.00 B
+              _k.frq: 2013-03-06T21:16:10-0700 - 38.00 B
+              _k.nrm: 2013-03-06T21:16:10-0700 - 42.00 B
+              _k.prx: 2013-03-06T21:16:10-0700 - 38.00 B
+              _k.tii: 2013-03-06T21:16:10-0700 - 35.00 B
+              _k.tis: 2013-03-06T21:16:10-0700 - 544.00 B
+              _l.cfs: 2013-03-06T21:16:10-0700 - 266.00 B
+              _m.cfs: 2013-03-06T21:16:10-0700 - 264.00 B
+              _n.cfs: 2013-03-06T21:16:10-0700 - 268.00 B
+              _o.cfs: 2013-03-06T21:16:10-0700 - 248.00 B
+              _p.cfs: 2013-03-06T21:16:10-0700 - 246.00 B
+              _q.cfs: 2013-03-06T21:16:10-0700 - 280.00 B
+              _r.cfs: 2013-03-06T21:16:11-0700 - 260.00 B
+              segments.gen: 2013-03-06T21:16:11-0700 - 20.00 B
+              segments_1: 2013-03-06T21:16:11-0700 - 1.64 kB
+            - Total: 2013-03-06T21:21:13-0700 - 4.75 kB
+          - Total: 2013-03-06T21:16:10-0700 - 4.75 kB
+        - Total: 2013-03-06T21:16:10-0700 - 4.75 kB
+        lucene-store.db: 2013-03-06T21:21:13-0700 - 40.00 B
+        lucene.log.1: 2013-03-06T21:22:13-0700 - 16.00 B
+        lucene.log.active: 2013-03-06T21:22:13-0700 - 4.00 B
+        lucene.log.v0: 2013-03-06T21:16:11-0700 - 4.56 kB
+        lucene.log.v1: 2013-03-06T21:21:13-0700 - 16.00 B
+      - Total: 2013-03-06T21:22:13-0700 - 9.38 kB
+      index.db: 2013-03-06T21:16:10-0700 - 103.00 B
+      lock: 2013-03-06T21:22:13-0700 - 0.00 B
+      messages.log: 2013-03-06T21:22:13-0700 - 57.48 kB
+      neostore: 2013-03-06T21:22:13-0700 - 54.00 B
+      neostore.id: 2013-03-06T21:22:13-0700 - 9.00 B
+      neostore.nodestore.db: 2013-03-06T21:22:13-0700 - 243.00 B
+      neostore.nodestore.db.id: 2013-03-06T21:22:13-0700 - 9.00 B
+      neostore.propertystore.db: 2013-03-06T21:22:13-0700 - 14.05 kB
+      neostore.propertystore.db.arrays: 2013-03-06T21:22:13-0700 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2013-03-06T21:22:13-0700 - 9.00 B
+      neostore.propertystore.db.id: 2013-03-06T21:22:13-0700 - 9.00 B
+      neostore.propertystore.db.index: 2013-03-06T21:22:13-0700 - 1.02 kB
+      neostore.propertystore.db.index.id: 2013-03-06T21:22:13-0700 - 9.00 B
+      neostore.propertystore.db.index.keys: 2013-03-06T21:22:13-0700 - 1.00 kB
+      neostore.propertystore.db.index.keys.id: 2013-03-06T21:22:13-0700 - 9.00 B
+      neostore.propertystore.db.strings: 2013-03-06T21:22:13-0700 - 128.00 B
+      neostore.propertystore.db.strings.id: 2013-03-06T21:22:13-0700 - 9.00 B
+      neostore.relationshipstore.db: 2013-03-06T21:22:13-0700 - 10.47 kB
+      neostore.relationshipstore.db.id: 2013-03-06T21:22:13-0700 - 9.00 B
+      neostore.relationshiptypestore.db: 2013-03-06T21:22:13-0700 - 5.00 B
+      neostore.relationshiptypestore.db.id: 2013-03-06T21:22:13-0700 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2013-03-06T21:22:13-0700 - 76.00 B
+      neostore.relationshiptypestore.db.names.id: 2013-03-06T21:22:13-0700 - 9.00 B
+      nioneo_logical.log.1: 2013-03-06T21:22:13-0700 - 16.00 B
+      nioneo_logical.log.active: 2013-03-06T21:22:13-0700 - 4.00 B
+      nioneo_logical.log.v0: 2013-03-06T21:16:11-0700 - 139.11 kB
+      nioneo_logical.log.v1: 2013-03-06T21:21:13-0700 - 44.77 kB
+      tm_tx_log.1: 2013-03-06T21:16:11-0700 - 28.73 kB
+      tm_tx_log.2: 2013-03-06T21:22:13-0700 - 0.00 B
+2013-03-07 04:22:13.333+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-03-07 04:22:13.335+0000: Started - database is now available
+2013-03-07 04:22:13.335+0000: GC Monitor started. 
+2013-03-07 04:22:14.794+0000: Stopping - database is now unavailable
+2013-03-07 04:22:14.795+0000: TM shutting down
+2013-03-07 04:22:14.801+0000: Closed log /Users/jwalton/NetBeansProjects/DeckCollector/testDB/index/lucene.log
+2013-03-07 04:22:14.805+0000: Closed log /Users/jwalton/NetBeansProjects/DeckCollector/testDB/nioneo_logical.log
+2013-03-07 04:22:14.805+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db.names hit=0 miss=2 switches=0 ooe=0
+2013-03-07 04:22:14.806+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db hit=0 miss=1 switches=0 ooe=0
+2013-03-07 04:22:14.806+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2013-03-07 04:22:14.807+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index.keys hit=4 miss=0 switches=0 ooe=0
+2013-03-07 04:22:14.808+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index hit=2 miss=0 switches=0 ooe=0
+2013-03-07 04:22:14.808+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-03-07 04:22:14.809+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db hit=1001 miss=0 switches=0 ooe=0
+2013-03-07 04:22:14.810+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshipstore.db hit=1275 miss=0 switches=0 ooe=0
+2013-03-07 04:22:14.811+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.nodestore.db hit=77 miss=0 switches=0 ooe=0
+2013-03-07 04:22:14.812+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore hit=0 miss=341 switches=0 ooe=0
+2013-03-07 04:22:14.813+0000: NeoStore closed
+2013-03-07 04:22:14.813+0000: --- SHUTDOWN diagnostics START ---
+2013-03-07 04:22:14.813+0000: --- SHUTDOWN diagnostics END ---
+2013-03-07 04:23:35.933+0000: WARNING! Deprecated configuration options used. See manual for details
+2013-03-07 04:23:35.949+0000: cannot configure writers and searchers individually since they go together
+2013-03-07 04:23:36.068+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=76b)
+2013-03-07 04:23:36.073+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=5b)
+2013-03-07 04:23:36.074+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.strings] brickCount=0 brickSize=368000b mappedMem=368050176b (storeSize=128b)
+2013-03-07 04:23:36.075+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=114b)
+2013-03-07 04:23:36.077+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index] brickCount=0 brickSize=1044b mappedMem=1048576b (storeSize=18b)
+2013-03-07 04:23:36.079+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.arrays] brickCount=0 brickSize=417280b mappedMem=417333248b (storeSize=128b)
+2013-03-07 04:23:36.081+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db] brickCount=0 brickSize=433042b mappedMem=433061888b (storeSize=14391b)
+2013-03-07 04:23:36.084+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshipstore.db] brickCount=0 brickSize=530574b mappedMem=530579456b (storeSize=10725b)
+2013-03-07 04:23:36.085+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.nodestore.db] brickCount=0 brickSize=119529b mappedMem=119537664b (storeSize=243b)
+2013-03-07 04:23:36.086+0000: [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-03-07 04:23:36.115+0000: Opened logical log [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/nioneo_logical.log.1] version=3, lastTxId=1003 (clean)
+2013-03-07 04:23:36.132+0000: TM opening log: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/tm_tx_log.2
+2013-03-07 04:23:36.168+0000: Opened logical log [/Users/jwalton/NetBeansProjects/DeckCollector/testDB/index/lucene.log.1] version=3, lastTxId=28 (clean)
+2013-03-07 04:23:36.173+0000: --- STARTUP diagnostics START ---
+2013-03-07 04:23:36.174+0000: Neo4j Kernel properties:
+    forced_kernel_id=
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=nioneo_logical.log
+    node_auto_indexing=false
+    intercept_committing_transactions=false
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=true
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.arrays.mapped_memory=398M
+    neostore.propertystore.db.strings.mapped_memory=351M
+    log_mapped_memory_stats_filename=mapped_memory_stats.log
+    log_mapped_memory_stats_interval=1000000
+    gcr_cache_min_log_interval=60s
+    relationship_grab_size=100
+    relationship_auto_indexing=false
+    node_cache_array_fraction=1.0
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    relationship_cache_array_fraction=1.0
+    remote_logging_host=127.0.0.1
+    store_dir=testDB
+    online_backup_enabled=false
+    remote_logging_port=4560
+    gc_monitor_threshold=200ms
+    array_block_size=120
+    load_kernel_extensions=true
+    neostore.relationshipstore.db.mapped_memory=506M
+    keep_logical_logs=true
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    neostore.nodestore.db.mapped_memory=114M
+    neo4j.ext.udc.first_delay=600000
+    neo4j.ext.udc.reg=unreg
+    ephemeral=false
+    log_mapped_memory_stats=false
+    neo_store=neostore
+    mapped_memory_page_size=1M
+    query_cache_size=100
+    logging.threshold_for_rotation=104857600
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=413M
+    string_block_size=120
+    grab_file_lock=true
+    remote_logging_enabled=false
+    neo4j.ext.udc.enabled=true
+    all_stores_total_mapped_memory_size=500M
+    online_backup_port=6362
+2013-03-07 04:23:36.181+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    NETWORK
+2013-03-07 04:23:36.182+0000: System memory information:
+    Total Physical memory: 4.00 GB
+    Free Physical memory: 47.59 MB
+    Committed virtual memory: 2.73 GB
+    Total swap space: 4.00 GB
+    Free swap space: 1.07 GB
+2013-03-07 04:23:36.193+0000: JVM memory information:
+    Free  memory: 55.70 MB
+    Total memory: 81.06 MB
+    Max   memory: 123.94 MB
+    Garbage Collector: ParNew: [Par Eden Space, Par Survivor Space]
+    Garbage Collector: ConcurrentMarkSweep: [Par Eden Space, Par Survivor Space, CMS Old Gen, CMS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=586.88 kB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: Par Eden Space (Heap memory): committed=16.63 MB, used=4.47 MB, max=16.63 MB, threshold=?
+    Memory Pool: Par Survivor Space (Heap memory): committed=2.06 MB, used=919.05 kB, max=2.06 MB, threshold=?
+    Memory Pool: CMS Old Gen (Heap memory): committed=62.38 MB, used=20.00 MB, max=105.25 MB, threshold=0.00 B
+    Memory Pool: CMS Perm Gen (Non-heap memory): committed=20.75 MB, used=10.38 MB, max=82.00 MB, threshold=0.00 B
+2013-03-07 04:23:36.200+0000: Operating system information:
+    Operating System: Mac OS X; version: 10.8.2; arch: x86_64; cpus: 4
+    Max number of file descriptors: 10240
+    Number of open file descriptors: 72
+    Process id: 58232@Joshs-MacBook-Air.local
+    Byte order: LITTLE_ENDIAN
+    Local timezone: America/Denver
+2013-03-07 04:23:36.203+0000: JVM information:
+    VM Name: Java HotSpot(TM) 64-Bit Server VM
+    VM Vendor: Apple Inc.
+    VM Version: 20.14-b01-445
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: []
+2013-03-07 04:23:36.204+0000: Java classpath:
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar
+     [loader.1] file:/System/Library/Java/Extensions/dns_sd.jar
+     [bootstrap] /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaRuntimeSupport.framework/Versions/A/Resources/Java/JavaRuntimeSupport.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j/1.8.1/neo4j-1.8.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/j3dutils.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.3.1/concurrentlinkedhashmap-lru-1.3.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+     [loader.1] file:/System/Library/Java/Extensions/jai_core.jar
+     [loader.1] file:/System/Library/Java/Extensions/vecmath.jar
+     [loader.1] file:/System/Library/Java/Extensions/libmlib_jai.jnilib
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-jmx/1.8.1/neo4j-jmx-1.8.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/jai_codec.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-cypher/1.8.1/neo4j-cypher-1.8.1.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-graph-matching/1.8.1/neo4j-graph-matching-1.8.1.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar
+     [classpath + loader.0] file:/Users/jwalton/NetBeansProjects/DeckCollector/target/classes/
+     [loader.1] file:/System/Library/Java/Extensions/libJ3D.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/mlibwrapper_jai.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/mongodb/mongo-java-driver/1.3/mongo-java-driver-1.3.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/jsoup/jsoup/1.7.2/jsoup-1.7.2.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar
+     [loader.1] file:/System/Library/Java/Extensions/QTJava.zip
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-udc/1.8.1/neo4j-udc-1.8.1.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/scala-lang/scala-library/2.9.1-1/scala-library-2.9.1-1.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/jce.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-graph-algo/1.8.1/neo4j-graph-algo-1.8.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/libJ3DAudio.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/libAppleScriptEngine.jnilib
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar
+     [loader.1] file:/System/Library/Java/Extensions/j3daudio.jar
+     [loader.1] file:/System/Library/Java/Extensions/AppleScriptEngine.jar
+     [loader.1] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar
+     [bootstrap] /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/apache/lucene/lucene-core/3.5.0/lucene-core-3.5.0.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-kernel/1.8.1/neo4j-kernel-1.8.1.jar
+     [loader.1] file:/System/Library/Java/Extensions/libQTJNative.jnilib
+     [loader.1] file:/System/Library/Java/Extensions/j3dcore.jar
+     [loader.1] file:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar
+     [classpath + loader.0] file:/Users/jwalton/.m2/repository/org/neo4j/neo4j-lucene-index/1.8.1/neo4j-lucene-index-1.8.1.jar
+2013-03-07 04:23:36.208+0000: Library path:
+    /Users/jwalton/NetBeansProjects/DeckCollector
+    /Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+2013-03-07 04:23:36.209+0000: System.properties:
+    sun.boot.library.path = /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries
+    awt.nativeDoubleBuffering = true
+    gopherProxySet = false
+    mrj.build = 11M4107
+    path.separator = :
+    file.encoding.pkg = sun.io
+    sun.java.launcher = SUN_STANDARD
+    user.country = US
+    sun.os.patch.level = unknown
+    user.dir = /Users/jwalton/NetBeansProjects/DeckCollector
+    sun.jnu.encoding = MacRoman
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    user.home = /Users/jwalton
+    user.timezone = America/Denver
+    file.encoding = MacRoman
+    user.name = jwalton
+    sun.java.command = com.mycompany.deckcollector.MtgNeo4jInserter
+    sun.arch.data.model = 64
+    user.language = en
+    awt.toolkit = apple.awt.CToolkit
+    file.separator = /
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    mrj.version = 1070.1.6.0_41-445
+    socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    sun.cpu.isalist = 
+2013-03-07 04:23:36.210+0000: Network information:
+    Interface en0:
+        address: 2601:1:a580:18:d9ff:ac23:6b0c:5da8
+        address: 2601:1:a580:18:7ed1:c3ff:feef:c543
+        address: fd9e:f642:9d0d:0:9510:127:3a41:4206
+        address: fd9e:f642:9d0d:0:7ed1:c3ff:feef:c543
+        address: fe80:0:0:0:7ed1:c3ff:feef:c543%4
+        address: 192.168.1.113
+    Interface lo0:
+        address: 0:0:0:0:0:0:0:1
+        address: fe80:0:0:0:0:0:0:1%1
+        address: 127.0.0.1
+2013-03-07 04:23:36.212+0000: --- STARTUP diagnostics END ---
+2013-03-07 04:23:36.232+0000: Recovery completed, all transactions have been resolved to a consistent state.
+2013-03-07 04:23:36.324+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2013-03-07 04:23:36.328+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2013-03-07 04:23:36.331+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2013-03-07 04:23:36.331+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1362629769138, id:6874366602008241042, store version: 13561656364791302]
+2013-03-07 04:23:36.331+0000: Kernel version: Neo4j - Graph Database Kernel 1.8.1
+2013-03-07 04:23:36.331+0000: Neo4j component versions:
+2013-03-07 04:23:36.332+0000:   Neo4j - Graph Database Kernel 1.8.1
+2013-03-07 04:23:36.332+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2013-03-07 04:23:36.334+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2013-03-07 04:23:36.334+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2013-03-07 04:23:36.335+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2013-03-07 04:23:36.335+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2013-03-07 04:23:36.335+0000: Id usage:
+    Id usage:
+      NodeStore: used=27 high=26
+      RelationshipStore: used=325 high=324
+      RelationshipTypeStore: used=1 high=0
+      PropertyStore: used=351 high=350
+      PropertyIndexStore: used=2 high=1
+      StringPropertyStore: used=1 high=0
+      ArrayPropertyStore: used=1 high=0
+2013-03-07 04:23:36.336+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2013-03-07 04:23:36.336+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-03-07 04:23:36.336+0000: --- STARTUP diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-03-07 04:23:36.337+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-03-07 04:23:36.337+0000: Disk space on partition (Total / Free / Free %): 120473067520 / 50339717120 / 58
+Storage files: (filename : modification date - size)
+      active_tx_log: 2013-03-06T21:16:11-0700 - 11.00 B
+      index:
+        lucene:
+          node:
+            cards:
+              _k.fdt: 2013-03-06T21:16:10-0700 - 458.00 B
+              _k.fdx: 2013-03-06T21:16:10-0700 - 156.00 B
+              _k.fnm: 2013-03-06T21:16:10-0700 - 18.00 B
+              _k.frq: 2013-03-06T21:16:10-0700 - 38.00 B
+              _k.nrm: 2013-03-06T21:16:10-0700 - 42.00 B
+              _k.prx: 2013-03-06T21:16:10-0700 - 38.00 B
+              _k.tii: 2013-03-06T21:16:10-0700 - 35.00 B
+              _k.tis: 2013-03-06T21:16:10-0700 - 544.00 B
+              _l.cfs: 2013-03-06T21:16:10-0700 - 266.00 B
+              _m.cfs: 2013-03-06T21:16:10-0700 - 264.00 B
+              _n.cfs: 2013-03-06T21:16:10-0700 - 268.00 B
+              _o.cfs: 2013-03-06T21:16:10-0700 - 248.00 B
+              _p.cfs: 2013-03-06T21:16:10-0700 - 246.00 B
+              _q.cfs: 2013-03-06T21:16:10-0700 - 280.00 B
+              _r.cfs: 2013-03-06T21:16:11-0700 - 260.00 B
+              segments.gen: 2013-03-06T21:16:11-0700 - 20.00 B
+              segments_1: 2013-03-06T21:16:11-0700 - 1.64 kB
+            - Total: 2013-03-06T21:22:14-0700 - 4.75 kB
+          - Total: 2013-03-06T21:16:10-0700 - 4.75 kB
+        - Total: 2013-03-06T21:16:10-0700 - 4.75 kB
+        lucene-store.db: 2013-03-06T21:22:14-0700 - 40.00 B
+        lucene.log.1: 2013-03-06T21:23:36-0700 - 16.00 B
+        lucene.log.active: 2013-03-06T21:23:36-0700 - 4.00 B
+        lucene.log.v0: 2013-03-06T21:16:11-0700 - 4.56 kB
+        lucene.log.v1: 2013-03-06T21:21:13-0700 - 16.00 B
+        lucene.log.v2: 2013-03-06T21:22:14-0700 - 16.00 B
+      - Total: 2013-03-06T21:23:36-0700 - 9.39 kB
+      index.db: 2013-03-06T21:16:10-0700 - 103.00 B
+      lock: 2013-03-06T21:23:36-0700 - 0.00 B
+      messages.log: 2013-03-06T21:23:36-0700 - 77.85 kB
+      neostore: 2013-03-06T21:23:36-0700 - 54.00 B
+      neostore.id: 2013-03-06T21:23:36-0700 - 9.00 B
+      neostore.nodestore.db: 2013-03-06T21:23:36-0700 - 243.00 B
+      neostore.nodestore.db.id: 2013-03-06T21:23:36-0700 - 9.00 B
+      neostore.propertystore.db: 2013-03-06T21:23:36-0700 - 14.05 kB
+      neostore.propertystore.db.arrays: 2013-03-06T21:23:36-0700 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2013-03-06T21:23:36-0700 - 9.00 B
+      neostore.propertystore.db.id: 2013-03-06T21:23:36-0700 - 9.00 B
+      neostore.propertystore.db.index: 2013-03-06T21:23:36-0700 - 1.02 kB
+      neostore.propertystore.db.index.id: 2013-03-06T21:23:36-0700 - 9.00 B
+      neostore.propertystore.db.index.keys: 2013-03-06T21:23:36-0700 - 1.00 kB
+      neostore.propertystore.db.index.keys.id: 2013-03-06T21:23:36-0700 - 9.00 B
+      neostore.propertystore.db.strings: 2013-03-06T21:23:36-0700 - 128.00 B
+      neostore.propertystore.db.strings.id: 2013-03-06T21:23:36-0700 - 9.00 B
+      neostore.relationshipstore.db: 2013-03-06T21:23:36-0700 - 10.47 kB
+      neostore.relationshipstore.db.id: 2013-03-06T21:23:36-0700 - 9.00 B
+      neostore.relationshiptypestore.db: 2013-03-06T21:23:36-0700 - 5.00 B
+      neostore.relationshiptypestore.db.id: 2013-03-06T21:23:36-0700 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2013-03-06T21:23:36-0700 - 76.00 B
+      neostore.relationshiptypestore.db.names.id: 2013-03-06T21:23:36-0700 - 9.00 B
+      nioneo_logical.log.1: 2013-03-06T21:23:36-0700 - 16.00 B
+      nioneo_logical.log.active: 2013-03-06T21:23:36-0700 - 4.00 B
+      nioneo_logical.log.v0: 2013-03-06T21:16:11-0700 - 139.11 kB
+      nioneo_logical.log.v1: 2013-03-06T21:21:13-0700 - 44.77 kB
+      nioneo_logical.log.v2: 2013-03-06T21:22:14-0700 - 44.77 kB
+      tm_tx_log.1: 2013-03-06T21:16:11-0700 - 28.73 kB
+      tm_tx_log.2: 2013-03-06T21:23:36-0700 - 0.00 B
+2013-03-07 04:23:36.354+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-03-07 04:23:36.359+0000: GC Monitor started. 
+2013-03-07 04:23:36.360+0000: Started - database is now available
+2013-03-07 04:23:37.806+0000: Stopping - database is now unavailable
+2013-03-07 04:23:37.808+0000: TM shutting down
+2013-03-07 04:23:37.814+0000: Closed log /Users/jwalton/NetBeansProjects/DeckCollector/testDB/index/lucene.log
+2013-03-07 04:23:37.817+0000: Closed log /Users/jwalton/NetBeansProjects/DeckCollector/testDB/nioneo_logical.log
+2013-03-07 04:23:37.817+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db.names hit=0 miss=2 switches=0 ooe=0
+2013-03-07 04:23:37.818+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshiptypestore.db hit=0 miss=1 switches=0 ooe=0
+2013-03-07 04:23:37.819+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2013-03-07 04:23:37.820+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index.keys hit=4 miss=0 switches=0 ooe=0
+2013-03-07 04:23:37.820+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.index hit=2 miss=0 switches=0 ooe=0
+2013-03-07 04:23:37.821+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-03-07 04:23:37.822+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.propertystore.db hit=1001 miss=0 switches=0 ooe=0
+2013-03-07 04:23:37.822+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.relationshipstore.db hit=1275 miss=0 switches=0 ooe=0
+2013-03-07 04:23:37.823+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore.nodestore.db hit=77 miss=0 switches=0 ooe=0
+2013-03-07 04:23:37.828+0000: /Users/jwalton/NetBeansProjects/DeckCollector/testDB/neostore hit=0 miss=341 switches=0 ooe=0
+2013-03-07 04:23:37.829+0000: NeoStore closed
+2013-03-07 04:23:37.830+0000: --- SHUTDOWN diagnostics START ---
+2013-03-07 04:23:37.830+0000: --- SHUTDOWN diagnostics END ---
