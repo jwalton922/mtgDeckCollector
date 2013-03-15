@@ -35,7 +35,7 @@ public class MtgNeo4jInserter {
     private RestGraphDatabase graphDb;
     public static String NEO4J_DB_PATH = "testDB";
     private Map<String,Node> cardNodes = new HashMap<String,Node>();
-    private String HEROKU_NEO4J = "http://2645f4a7d.hosted.neo4j.org:7343/db/data/";
+    private String HEROKU_NEO4J = "http://2645f4a7d.hosted.neo4j.org:7343/db/data";
     private String herokuUser = "5c7d14ae5";
     private String herokuPassword = "579e8cded";
 
@@ -75,6 +75,7 @@ public class MtgNeo4jInserter {
         cursor.addOption(Bytes.QUERYOPTION_NOTIMEOUT);
         int countProcessed = 0;
         while (cursor.hasNext()) {
+            countProcessed++;
             DBObject deckObject = cursor.next();
             List<String> cards = (List<String>) deckObject.get("cards");
             List<Node> nodes = new ArrayList<Node>();
@@ -119,7 +120,7 @@ public class MtgNeo4jInserter {
 //                System.out.println("Have node for: " + cardNode.getProperty("name"));
 //                nodes.add(cardNode);
             }
-            System.out.println("Adding relationships for " + cards.size() + " cards");
+            System.out.println("DECK "+countProcessed+": Adding relationships for " + cards.size() + " cards");
             for (int i = 0; i < nodes.size(); i++) {
                 for (int j = i + 1; j < nodes.size(); j++) {
                     Node node1 = nodes.get(i);
@@ -140,7 +141,7 @@ public class MtgNeo4jInserter {
                             }
                         }
                         if (!foundRelationship) {
-                            System.out.println("Creating new relationship between " + node1.getProperty("name") + " to " + node2.getProperty("name"));
+                            System.out.println(": Creating new relationship between " + node1.getProperty("name") + " to " + node2.getProperty("name"));
                             Relationship relationship = node1.createRelationshipTo(node2, MtgRelationships.IN_DECK_WITH);
                             relationship.setProperty("count", 1);
                         } else {
@@ -155,7 +156,7 @@ public class MtgNeo4jInserter {
                 }
             }
 
-            countProcessed++;
+            
             System.out.println("Processed " + countProcessed + " decks");
         }
     }
