@@ -141,6 +141,10 @@ public class Card {
             info.put("rulings",rulings);
         }
         
+        if(rules != null){
+            info.put("rules", rules);
+        }
+        
         return info;
     }
 
