@@ -66,6 +66,7 @@ public class MtgCardXmlParser {
             Element cardListElement = root.getChild("cards");
             System.out.println("Found " + cardListElement.getChildren().size() + " card elements");
             List<Card> cardList = new ArrayList<Card>();
+            int count = 0;
             for (Element cardElement : cardListElement.getChildren()) {
 
                 Card card = new Card();
@@ -108,7 +109,8 @@ public class MtgCardXmlParser {
                 DBObject cardObject = new BasicDBObject();
                 cardObject.putAll(cardInfo);
                 cardCollection.update(query, cardObject, true, false);
-
+                count++;
+                System.out.println("Processed card "+card.getName()+" "+count+" out of "+cardListElement.getChildren().size());
             }
 
         } catch (Exception e) {

@@ -4,6 +4,7 @@
  */
 package com.mycompany.deckcollector;
 
+import com.mongodb.BasicDBObject;
 import com.mongodb.Bytes;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
@@ -62,6 +63,9 @@ public class MtgNeo4jCardPropertyInserter {
 
     public void addCardInfoToNeo4j() {
         DBCursor cursor = cardCollection.find();
+        DBObject sortObject = new BasicDBObject();
+        sortObject.put("name", 1);
+        cursor = cursor.sort(sortObject);
         cursor.addOption(Bytes.QUERYOPTION_NOTIMEOUT);
         while (cursor.hasNext()) {
             DBObject cardObject = cursor.next();

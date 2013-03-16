@@ -12,18 +12,19 @@ import com.mongodb.DBObject;
 import com.mongodb.Mongo;
 import static com.mycompany.deckcollector.TcgDeckCollector.DECK_COLLECTION_NAME;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import org.neo4j.graphdb.GraphDatabaseService;
 import org.neo4j.graphdb.Node;
 import org.neo4j.graphdb.Relationship;
 import org.neo4j.graphdb.Transaction;
 import org.neo4j.graphdb.index.UniqueFactory;
 import org.neo4j.rest.graphdb.RestGraphDatabase;
-import org.neo4j.rest.graphdb.query.RestCypherQueryEngine;
-import org.neo4j.rest.graphdb.util.QueryResult;
 
 /**
  *
@@ -34,10 +35,11 @@ public class MtgNeo4jInserter {
     private DBCollection deckCollection;
     private RestGraphDatabase graphDb;
     public static String NEO4J_DB_PATH = "testDB";
-    private Map<String,Node> cardNodes = new HashMap<String,Node>();
+    private Map<String, Node> cardNodes = new HashMap<String, Node>();
     private String HEROKU_NEO4J = "http://2645f4a7d.hosted.neo4j.org:7343/db/data";
     private String herokuUser = "5c7d14ae5";
     private String herokuPassword = "579e8cded";
+    private Map<String, Integer> relationshipToCountMap = new HashMap<String, Integer>();
 
     public MtgNeo4jInserter() {
         init();
@@ -52,16 +54,16 @@ public class MtgNeo4jInserter {
             deckCollection = db.getCollection(DECK_COLLECTION_NAME);
 
             //graphDb = new RestGraphDatabase("http://localhost:7474/db/data");
-            graphDb = new RestGraphDatabase(HEROKU_NEO4J,herokuUser,herokuPassword);
+            graphDb = new RestGraphDatabase(HEROKU_NEO4J, herokuUser, herokuPassword);
             Iterable<Node> allNodes = graphDb.getAllNodes();
             Iterator<Node> it = allNodes.iterator();
-            while(it.hasNext()){
+            while (it.hasNext()) {
                 Node node = it.next();
-                if(node.hasProperty("name")){
+                if (node.hasProperty("name")) {
                     cardNodes.put(node.getProperty("name").toString(), node);
                 }
             }
-            System.out.println("There are "+cardNodes.size()+" card nodes");
+            System.out.println("There are " + cardNodes.size() + " card nodes");
             registerShutdownHook(graphDb);
 
         } catch (Exception e) {
@@ -78,28 +80,102 @@ public class MtgNeo4jInserter {
             countProcessed++;
             DBObject deckObject = cursor.next();
             List<String> cards = (List<String>) deckObject.get("cards");
+            System.out.println("DECK " + countProcessed + ": Adding relationships for " + cards.size() + " cards");
+            for (int i = 0; i < cards.size(); i++) {
+                for (int j = i + 1; j < cards.size(); j++) {
+                    String card1 = cards.get(i);
+                    String card2 = cards.get(j);
+                    List<String> cardRelationship = new ArrayList<String>();
+                    cardRelationship.add(card1);
+                    cardRelationship.add(card2);
+                    Collections.sort(cardRelationship);
+                    String jointCardString = cardRelationship.get(0) + "|||" + cardRelationship.get(1);
+                    if (relationshipToCountMap.containsKey(jointCardString)) {
+                        Integer count = relationshipToCountMap.get(jointCardString);
+                        count++;
+                        relationshipToCountMap.put(jointCardString, count);
+                    } else {
+                        relationshipToCountMap.put(jointCardString, 1);
+                    }
+                }
+            }
+
+
+            System.out.println("Processed " + countProcessed + " decks");
+            System.out.println("Will now insert " + relationshipToCountMap.size() + " edges");
+            Set<String> relationshipStrings = relationshipToCountMap.keySet();
+            List<EdgeNodeHolder> relationshipList = new ArrayList<EdgeNodeHolder>();
+            for (String relationshipString : relationshipStrings) {
+                String[] stringSplit = relationshipString.split("\\|\\|\\|");
+                EdgeNodeHolder relationship = new EdgeNodeHolder(stringSplit[0], stringSplit[1], relationshipToCountMap.get(relationshipString));
+                relationshipList.add(relationship);
+            }
+            Collections.sort(relationshipList, new EdgeNodeHolderComparator());
+
+            for (int i = 0; i < relationshipList.size(); i++) {
+                EdgeNodeHolder r = relationshipList.get(i);
+                Node node1 = cardNodes.get(r.card1);
+                Node node2 = cardNodes.get(r.card2);
+                if (node1 == null) {
+                    System.out.println("Could not find node for: " + r.card1);
+                    continue;
+                }
+
+                if (node2 == null) {
+                    System.out.println("Could not find node for: " + r.card2);
+                    continue;
+                }
+
+                Transaction tx = graphDb.beginTx();
+                try {
+                    Iterable<Relationship> relationships = node1.getRelationships();
+                    boolean foundRelationship = false;
+                    for (Relationship relationship : relationships) {
+                        Node relatedNode = relationship.getOtherNode(node1);
+                        String relatedName = relatedNode.getProperty("name").toString();
+                        if (relatedName.equalsIgnoreCase(node2.getProperty("name").toString())) {
+                            Integer count = (Integer) relationship.getProperty("count");
+                            count++;
+                            relationship.setProperty("count", count);
+                            foundRelationship = true;
+                            break;
+                        }
+                    }
+                    if (!foundRelationship) {
+                        System.out.println(": Creating new relationship between " + node1.getProperty("name") + " to " + node2.getProperty("name"));
+                        Relationship relationship = node1.createRelationshipTo(node2, MtgRelationships.IN_DECK_WITH);
+                        relationship.setProperty("count", 1);
+                    } else {
+                        //System.out.println("updated relationship");
+                    }
+                    tx.success();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                } finally {
+                    tx.finish();
+                }
+                System.out.println("Processed relationship: " + i + " out of " + relationshipList.size());
+            }
+
+        }
+
+
+    }
+
+    public void processDecksOld() {
+        DBCursor cursor = deckCollection.find();
+        cursor.addOption(Bytes.QUERYOPTION_NOTIMEOUT);
+        int countProcessed = 0;
+        while (cursor.hasNext()) {
+            countProcessed++;
+            DBObject deckObject = cursor.next();
+            List<String> cards = (List<String>) deckObject.get("cards");
             List<Node> nodes = new ArrayList<Node>();
             for (String card : cards) {
-                
-//                RestCypherQueryEngine engine = new RestCypherQueryEngine(graphDb.getRestAPI());
-//                String queryString = "start n=node(*) where has(n.name) AND n.name = {card} return n, n.name";
-//                Map<String,Object> paramMap = new HashMap<String,Object>();
-//                paramMap.put("card", card);
-//                QueryResult result = engine.query(queryString, paramMap);
-//                Iterator<Map<String,Object>> it = result.iterator();
-//                boolean foundNodes = false;
-//                while(it.hasNext()){
-//                    Map<String,Object> resObj = it.next();
-//                    for(String key : resObj.keySet()){
-//                        System.out.println("Key = "+key+" value = "+resObj.get(key).toString());
-//                    }
-//                    graphDb.g
-//                    //System.out.println("Search result: "+it.next().toString());
-//                    foundNodes = true;
-//                }
+
                 //System.out.println("Found nodes? "+foundNodes);
-                if(!cardNodes.containsKey(card)){
-                    System.out.println("Created new node for card: "+card);
+                if (!cardNodes.containsKey(card)) {
+                    System.out.println("Created new node for card: " + card);
                     Node newCardNode = graphDb.createNode();
                     newCardNode.setProperty("name", card);
                     nodes.add(newCardNode);
@@ -107,24 +183,17 @@ public class MtgNeo4jInserter {
                 } else {
                     nodes.add(cardNodes.get(card));
                 }
-//                if(foundNodes != null && foundNodes.hasNext()){
-//                    System.out.println("Found node for: "+card);
-//                    nodes.add(foundNodes.next());
-//                } else {
-//                    System.out.println("Creating node for: "+card);
-//                    Node newCardNode = graphDb.createNode();
-//                    newCardNode.setProperty("name", card);
-//                    nodes.add(newCardNode);
-//                }
-//                Node cardNode = getOrCreateUserWithUniqueFactory(card, graphDb);
-//                System.out.println("Have node for: " + cardNode.getProperty("name"));
-//                nodes.add(cardNode);
+
             }
-            System.out.println("DECK "+countProcessed+": Adding relationships for " + cards.size() + " cards");
+            System.out.println("DECK " + countProcessed + ": Adding relationships for " + cards.size() + " cards");
             for (int i = 0; i < nodes.size(); i++) {
                 for (int j = i + 1; j < nodes.size(); j++) {
                     Node node1 = nodes.get(i);
                     Node node2 = nodes.get(j);
+
+
+
+
                     Transaction tx = graphDb.beginTx();
                     try {
                         Iterable<Relationship> relationships = node1.getRelationships();
@@ -156,7 +225,7 @@ public class MtgNeo4jInserter {
                 }
             }
 
-            
+
             System.out.println("Processed " + countProcessed + " decks");
         }
     }
@@ -189,5 +258,32 @@ public class MtgNeo4jInserter {
         MtgNeo4jInserter inserter = new MtgNeo4jInserter();
         inserter.processDecks();
         System.exit(1);
+    }
+
+    public class EdgeNodeHolderComparator implements Comparator<EdgeNodeHolder> {
+
+        public int compare(EdgeNodeHolder a, EdgeNodeHolder b) {
+            return a.card1.compareTo(b.card1);
+        }
+    }
+
+    private class EdgeNodeHolder {
+
+        public String card1;
+        public String card2;
+        public int count;
+
+        public EdgeNodeHolder(String card1, String card2, int count) {
+            this.card1 = card1;
+            this.card2 = card2;
+        }
+
+        public void incrementCount() {
+            this.count++;
+        }
+
+        public int getCount() {
+            return this.count;
+        }
     }
 }
