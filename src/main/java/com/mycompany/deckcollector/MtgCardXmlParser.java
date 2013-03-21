@@ -74,7 +74,7 @@ public class MtgCardXmlParser {
                 card.setName(cardElement.getChildText("name"));
                 card.setCost(cardElement.getChildText("cost"));
                 card.setColor(cardElement.getChildText("color"));
-                card.setType(cardElement.getChildText("set"));
+                card.setType(cardElement.getChildText("type"));
                 card.setRarity(cardElement.getChildText("rarity"));
                 if (cardElement.getChild("power") != null && cardElement.getChildText("power").length() > 0) {
                     try {
@@ -109,6 +109,7 @@ public class MtgCardXmlParser {
                 DBObject cardObject = new BasicDBObject();
                 cardObject.putAll(cardInfo);
                 cardCollection.update(query, cardObject, true, false);
+                System.out.println("rules: "+cardObject.get("rules"));
                 count++;
                 System.out.println("Processed card "+card.getName()+" "+count+" out of "+cardListElement.getChildren().size());
             }
