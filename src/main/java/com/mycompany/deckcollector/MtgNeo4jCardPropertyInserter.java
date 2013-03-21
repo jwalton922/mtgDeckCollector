@@ -65,8 +65,9 @@ public class MtgNeo4jCardPropertyInserter {
         DBCursor cursor = cardCollection.find();
         DBObject sortObject = new BasicDBObject();
         sortObject.put("name", 1);
-        cursor = cursor.sort(sortObject);
+        //cursor = cursor.sort(sortObject);
         cursor.addOption(Bytes.QUERYOPTION_NOTIMEOUT);
+        int count = 0;
         while (cursor.hasNext()) {
             DBObject cardObject = cursor.next();
             String cardName = cardObject.get("name").toString().toUpperCase();
@@ -87,6 +88,8 @@ public class MtgNeo4jCardPropertyInserter {
                     }
                 }
             }
+            count++;
+            System.out.println("Processed "+count+" card");
         }
     }
 
