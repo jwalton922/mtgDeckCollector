@@ -22,7 +22,7 @@
     <property name="basedir" value="/Users/jwalton/NetBeansProjects/DeckCollector"/>
     <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="surefire.real.class.path" value="/Users/jwalton/NetBeansProjects/DeckCollector/target/surefire/surefirebooter3008020188345461491.jar"/>
+    <property name="surefire.real.class.path" value="/Users/jwalton/NetBeansProjects/DeckCollector/target/surefire/surefirebooter4210683325691443600.jar"/>
     <property name="java.io.tmpdir" value="/var/folders/r5/01wc32yn7rg4ph977rmnm4vw0000gn/T/"/>
     <property name="line.separator" value="
 "/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
-    <property name="sun.java.command" value="/Users/jwalton/NetBeansProjects/DeckCollector/target/surefire/surefirebooter3008020188345461491.jar /Users/jwalton/NetBeansProjects/DeckCollector/target/surefire/surefire2354631579157090265tmp /Users/jwalton/NetBeansProjects/DeckCollector/target/surefire/surefire8998895667236618997tmp"/>
+    <property name="sun.java.command" value="/Users/jwalton/NetBeansProjects/DeckCollector/target/surefire/surefirebooter4210683325691443600.jar /Users/jwalton/NetBeansProjects/DeckCollector/target/surefire/surefire8177564803046666312tmp /Users/jwalton/NetBeansProjects/DeckCollector/target/surefire/surefire3414261405753491446tmp"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="apple.awt.CToolkit"/>
