@@ -4,6 +4,7 @@
  */
 package com.mycompany.deckcollector;
 
+import com.mongodb.BasicDBObject;
 import com.mongodb.Bytes;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
@@ -77,8 +78,16 @@ public class MtgNeo4jInserter {
         }
     }
 
-    public void processDecksWithMultipleInsertsPerTransaction() {
-        DBCursor cursor = deckCollection.find();
+    public void processDecksWithMultipleInsertsPerTransaction(String source) {
+        DBCursor cursor = null;
+        if (source != null) {
+            DBObject query = new BasicDBObject();
+            query.put("source", source);
+            cursor = deckCollection.find(query);
+        } else {
+            cursor = deckCollection.find();
+        }
+
         cursor.addOption(Bytes.QUERYOPTION_NOTIMEOUT);
         int countProcessed = 0;
         while (cursor.hasNext()) {
@@ -281,8 +290,15 @@ public class MtgNeo4jInserter {
         });
     }
 
-    public void processDecks() {
-        DBCursor cursor = deckCollection.find();
+    public void processDecks(String source) {
+        DBCursor cursor = null;
+        if (source != null) {
+            DBObject query = new BasicDBObject();
+            query.put("source", source);
+            cursor = deckCollection.find(query);
+        } else {
+            cursor = deckCollection.find();
+        }
         cursor.addOption(Bytes.QUERYOPTION_NOTIMEOUT);
         int countProcessed = 0;
         while (cursor.hasNext()) {
@@ -351,7 +367,7 @@ public class MtgNeo4jInserter {
 
     public static void main(String[] args) {
         MtgNeo4jInserter inserter = new MtgNeo4jInserter();
-        inserter.processDecks();
+        inserter.processDecks("vintageWinners");
         System.exit(1);
     }
 

@@ -30,6 +30,7 @@ public class TcgDeckCollector {
     private DBCollection deckCollection;
     public static final String DECK_COLLECTION_NAME = "successfulDeckLists";
     private long startDeckCount;
+    private String deckSource;
     
     public TcgDeckCollector(){
         init();
@@ -57,6 +58,7 @@ public class TcgDeckCollector {
      */
     public void gatherDecksFromHtmlFile(String file) {
         File input = new File(file);
+        deckSource = input.getName();
         try {
             Document doc = Jsoup.parse(input, "UTF-8", TCG_PLAYER_ROOT);
             Elements links = doc.select("td a");
@@ -102,12 +104,13 @@ public class TcgDeckCollector {
     private void saveCards(List<String> deck){
         DBObject deckObject = new BasicDBObject();
         deckObject.put("cards", deck);
+        deckObject.put("source", deckSource);
         deckCollection.insert(deckObject);
         startDeckCount++;
     }
 
     public static void main(String[] args) {
         TcgDeckCollector deckCollector = new TcgDeckCollector();
-        deckCollector.gatherDecksFromHtmlFile("/Users/jwalton/Downloads/deckList.html");
+        deckCollector.gatherDecksFromHtmlFile("/Users/jwalton/Downloads/vintageWinners");
     }
 }
